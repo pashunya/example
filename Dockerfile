@@ -19,5 +19,5 @@ RUN rm -f /etc/ssh/ssh_host_ecdsa_key /etc/ssh/ssh_host_rsa_key && \
 COPY conf/supervisord.conf /etc/supervisord.conf
 COPY html/index.html /var/www/html/index.html
 
-EXPOSE 9001 22
+EXPOSE 9001 22 80
 CMD ["/usr/bin/supervisord"]
