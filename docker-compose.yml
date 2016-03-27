@@ -5,3 +5,6 @@ dev:
   - "9001"
   - "80"
   hostname: example
+  environment:
+    RACK_ENV: development
+    SHOW: 'true'
