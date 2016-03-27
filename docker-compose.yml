@@ -1,5 +1,6 @@
 dev:
   build: .
+  image: example
   ports:
   - "222:22"
   - "9001:9001"
